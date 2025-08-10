@@ -161,8 +161,28 @@ int main() {
     // int max = GetMax(num1,num2,num3);
     // println("The number {} is greater of them of all." , max);
 
-    // Calculator
-
+    // 4 Function Calculator
+    // double num1;
+    // cout << "Please enter the first number: ";
+    // cin >> num1;
+    // char func;
+    // cout << "+  -   *   /\n";
+    // cout << "Which function do you want to perform: ";
+    // cin >> func;
+    // double num2;
+    // cout << "Please enter the second number: ";
+    // cin >> num2;
+    // if (func == '+' ) {
+    //     cout << num1+num2;
+    // } else if (func == '-') {
+    //     cout << num1-num2;
+    // } else if (func == '*' ) {
+    //     cout << num1*num2;
+    // } else if (func == '/' ) {
+    //     cout << num1/num2;
+    // } else {
+    //     cout << "Invalid function Entered" << endl;
+    // }
 
     return 0; // Signifies the end of code , anything beyond this does not get executed.
 }
