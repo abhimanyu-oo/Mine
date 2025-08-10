@@ -1,15 +1,16 @@
 #include <iostream>
+#include <print>
 using namespace std;
 void New();
 int main() {
     auto lang = "C++";
-    cout << "Hello and welcome to " << lang << endl;
+    println("Hello and welcome to {}!\n",lang);
 
-    for (int i = 1; i <= 5; i++)
-        {
-        cout << "i = " << i << endl;
-    }
-    cout<<endl;
+    // for (int i = 1; i <= 5; i++)
+    //     {
+    //     cout << "i = " << i << endl;
+    // }
+    // println();
     New();
     return 0;
 }
