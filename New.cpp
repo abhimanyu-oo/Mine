@@ -14,6 +14,19 @@ double Cube(double num) {
     // return cube;
     return pow(num,3); // It can  return cube or what was stored in cube.
 }
+
+int GetMax(int num1,int num2,int num3) {
+    int result;
+    if (num1>=num2 && num1>=num3) {;
+        result = num1;
+    } else if (num2>=num1 && num2>=num3){;
+        result = num2;
+    } else {
+        result = num3;
+    }
+    return result;
+}
+
 int main() {
 
     // Connect();
@@ -104,6 +117,7 @@ int main() {
     // numbers[10] = 20; // 11th element does not exist but i am adding it to the array.
     // cout << numbers[10] << endl;
 
+    // Functions
     // string name;
     // int age;
     // cout << "Please enter your name: ";
@@ -113,12 +127,41 @@ int main() {
     // Hello(name, age);// This calls the function.
     // // If the function was down below this line it would give an error , so the function must be mentioned above so the program knows that it exists.
 
+    // Return Function
     // double num;
     // cout << "Please enter a number: ";
     // cin >> num;
     // double ans = Cube(num);
     // cout << "The cube of the number is " << ans << endl;
 
+    // if statement
+    // bool isMale = true;
+    // bool isTall = true;
+    // if (isMale && isTall) {
+    //     cout << "You are a tall male";
+    // } else if (isMale && !isTall) {
+    //     cout << "You are a short male";
+    // } else if (!isMale && isTall) {
+    //     cout << "You are tall female";
+    // } else {
+    // cout << "You are short female";
+    // }
+    // // && is 'and' operator while || is 'or' operator. ! is for negation of an input.
+
+    // Finding Max (You can use fmax but still);
+    // int num1;
+    // int num2;
+    // int num3;
+    // cout << "please enter a number: ";
+    // cin >> num1;
+    // cout << "please enter a number: ";
+    // cin >> num2;
+    // cout << "please enter a number: ";
+    // cin >> num3;
+    // int max = GetMax(num1,num2,num3);
+    // println("The number {} is greater of them of all." , max);
+
+    // Calculator
 
 
     return 0; // Signifies the end of code , anything beyond this does not get executed.
