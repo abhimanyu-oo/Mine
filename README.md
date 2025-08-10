@@ -1,3 +1,3 @@
 Hello</br>
 Its me, Abhimnayu</br>
-I made This Repository on GitHub for TechSoc.
+This is my GitHub Repository.
