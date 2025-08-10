@@ -2,10 +2,21 @@
 # include <print>
 # include <cmath>
 using namespace std;
-void New();
+void Connect();
+
+void Hello(string Name , int age) {
+    println("Hello {} , Nice to meet you!" , Name);
+    println("You are {} years old" , age);
+}
+
+double Cube(double num) {
+    double cube = pow(num, 3);
+    // return cube;
+    return pow(num,3); // It can  return cube or what was stored in cube.
+}
 int main() {
-    println ("Connected via Void function!!");
-    New();
+
+    // Connect();
 
     // Variables
 
@@ -81,18 +92,34 @@ int main() {
     // getline(cin,noun);
     // cout<<"Enter your favourite celeb : ";
     // getline(cin,celeb);
-    //
     // cout << "Rosses are " << color << endl;
     // cout << noun <<" are Blue" << endl;
     // cout << "I love "<< celeb << endl;
 
     // Arrays
-    int numbers[20] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // this is an array.The number in the bracket signifies the max numbers of elements in the array.
-    cout << numbers[3] << endl; // prints the 4th element from the array.
-    numbers[3] = 10; // Changes the 4th element to 10
-    cout << numbers[3] << endl;
-    numbers[10] = 20; // 11th element does not exist but i am adding it to the array.
-    cout << numbers[10] << endl;
+    // int numbers[20] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // this is an array.The number in the bracket signifies the max numbers of elements in the array.
+    // cout << numbers[3] << endl; // prints the 4th element from the array.
+    // numbers[3] = 10; // Changes the 4th element to 10
+    // cout << numbers[3] << endl;
+    // numbers[10] = 20; // 11th element does not exist but i am adding it to the array.
+    // cout << numbers[10] << endl;
 
-    return 0;
+    // string name;
+    // int age;
+    // cout << "Please enter your name: ";
+    // getline(cin, name);
+    // cout << "Please enter your age: ";
+    // cin >> age;
+    // Hello(name, age);// This calls the function.
+    // // If the function was down below this line it would give an error , so the function must be mentioned above so the program knows that it exists.
+
+    // double num;
+    // cout << "Please enter a number: ";
+    // cin >> num;
+    // double ans = Cube(num);
+    // cout << "The cube of the number is " << ans << endl;
+
+
+
+    return 0; // Signifies the end of code , anything beyond this does not get executed.
 }
