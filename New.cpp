@@ -31,6 +31,10 @@ void New() {
     cout<<endl;
 
     int age = 18;
-    cout << "My age is "<< age << endl;
+    cout << "My age is "<< age << "\n";
+    cout<<endl;
+
+    string name = "Abhimanyu";
+    cout << "My name is " << name << endl;
     cout<<endl;
 }
