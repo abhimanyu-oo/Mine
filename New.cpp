@@ -1,5 +1,6 @@
 # include <iostream>
+# include <print>
 using namespace std;
 void New() {
-    cout << "Connected via Void function!" << endl;
+    Println ("Connected via Void function!");
 }
