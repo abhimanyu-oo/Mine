@@ -7,17 +7,17 @@ void New() {
 
     char Grade;
     Grade = 'A';
-    cout << Grade << endl;
+    cout << Grade  << "\n";
     Grade = 'B';
-    cout << Grade << endl;
+    cout << Grade << "\n";
     Grade = 'C';
-    cout << Grade << endl;
+    cout << Grade << "\n";
     Grade = 'D';
-    cout << Grade << endl;
+    cout << Grade << "\n";
     Grade = 'E';
-    cout << Grade << endl;
+    cout << Grade << "\n";
     Grade = 'F';
-    cout << Grade << endl;
+    cout << Grade << "\n";
     cout<<endl;
 
     double pi = 3.141592653589793;
