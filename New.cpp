@@ -3,6 +3,8 @@
 # include <cmath>
 using namespace std;
 void Connect();
+void cal();
+
 
 void Hello(string Name , int age) {
     println("Hello {} , Nice to meet you!" , Name);
@@ -30,6 +32,7 @@ int GetMax(int num1,int num2,int num3) {
 int main() {
 
     // Connect();
+     cal();
 
     // Variables
 

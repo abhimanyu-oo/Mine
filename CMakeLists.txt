@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(C__ main.cpp
         New.cpp
+        Calender.cpp
 )
