@@ -32,7 +32,10 @@ int GetMax(int num1,int num2,int num3) {
 int main() {
 
     // Connect();
-     cal();
+    // To find Prime Numbers in A Range
+
+    // cal();
+    // To find the day that was on a specific date from that date
 
     // Variables
 
