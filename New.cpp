@@ -2,5 +2,5 @@
 # include <print>
 using namespace std;
 void New() {
-    println ("Connected via Void function!");
+    println ("Connected via Void function!!");
 }
