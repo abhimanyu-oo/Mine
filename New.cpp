@@ -2,8 +2,11 @@
 # include <print>
 # include <cmath>
 using namespace std;
-void New() {
+void New();
+int main() {
     println ("Connected via Void function!!");
+    New();
+
     // Variables
 
     // char Grade;
@@ -84,7 +87,12 @@ void New() {
     // cout << "I love "<< celeb << endl;
 
     // Arrays
-    int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int numbers[20] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // this is an array.The number in the bracket signifies the max numbers of elements in the array.
+    cout << numbers[3] << endl; // prints the 4th element from the array.
+    numbers[3] = 10; // Changes the 4th element to 10
+    cout << numbers[3] << endl;
+    numbers[10] = 20; // 11th element does not exist but i am adding it to the array.
+    cout << numbers[10] << endl;
 
-
+    return 0;
 }
