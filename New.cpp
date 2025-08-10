@@ -17,7 +17,7 @@ void New() {
     Grade = 'E';
     cout << Grade << "\n";
     Grade = 'F';
-    cout << Grade << "\n";
+    cout << Grade << endl;
 
     double pi = 3.141592653589793;
     cout << "The Value of pi is "<< pi << endl;
@@ -28,7 +28,7 @@ void New() {
     cout << is_correct << endl;
 
     int age = 18;
-    cout << "My age is "<< age << "\n";
+    cout << "My age is "<< age << endl;
 
     string name = "Abhimanyu";
     cout << "My name is " << name << endl;
