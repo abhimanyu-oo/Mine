@@ -38,7 +38,6 @@ int main() {
     // To find the day that was on a specific date from that date
 
     // Variables
-
     // char Grade;
     // Grade = 'A';
     // cout << Grade  << "\n";
@@ -52,18 +51,14 @@ int main() {
     // cout << Grade << "\n";
     // Grade = 'F';
     // cout << Grade << endl;
-
     // double pi = 3.141592653589793;
     // cout << "The Value of pi is "<< pi << endl;
-
     // bool is_correct = true;
     // cout << is_correct << endl;
     // is_correct = false;
     // cout << is_correct << endl;
-
     // int age = 18;
     // cout << "My age is "<< age << endl;
-
     // string name = "Abhimanyu";
     // cout << "My name is " << name << endl;
 
@@ -97,7 +92,6 @@ int main() {
     // cout << "Enter your age: ";
     // getline(cin, age);
     // cout << "You told me that you are " << age << " years old" <<endl;
-
     // string Name;
     // cout << "Enter your name: ";
     // getline(cin, Name);
@@ -189,6 +183,53 @@ int main() {
     // } else {
     //     cout << "Invalid function Entered" << endl;
     // }
+
+    // While Loops
+    // int i =7;
+    // do
+    //     {
+    //     cout << i << endl;
+    //     i++;
+    // } while (i<=7); // A do while loop executes the command and then checks for condition if it is true.
+    // // It is the same as while loop but will always atleast provide 1 execution of the command even if the condition is not met.
+
+    // Guessing a Number
+    // int secnum=37;
+    // int guess;
+    // int guesscount=0;
+    // int limit =5;
+    // bool outofguesses=false;
+    // while and if statement seperate.
+    // while (secnum != guess && guesscount < limit) {
+    //     cout << "Please enter your guess: ";
+    //     cin >> guess;
+    //     guesscount++;
+    // }
+    // if (guesscount ==  limit) {
+    //     outofguesses=true;
+    //     cout << "You are out of guesses!" << endl;
+    // } else {
+    //     outofguesses=false;
+    //     cout << "You Win!" << endl;
+    // }
+    // Same Thing but Different approach. if statement inside while loop.
+    // while (secnum != guess && !outofguesses) {
+    //     if (guesscount < limit ) {
+    //         cout << "Please enter your guess: ";
+    //         cin >> guess;
+    //         guesscount++;
+    //     }else {
+    //         outofguesses=true;
+    //     }
+    // }
+    // if (outofguesses) {
+    //     cout << "You Lose!" << endl;
+    // } else {
+    //     cout << "You Win!" << endl;
+    // }
+
+    // For Loops
+
 
     return 0; // Signifies the end of code , anything beyond this does not get executed.
 }
