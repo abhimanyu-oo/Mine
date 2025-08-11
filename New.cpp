@@ -29,6 +29,14 @@ int GetMax(int num1,int num2,int num3) {
     return result;
 }
 
+int power(int base, int exp) {
+    int result = 1;
+    for (int i =0 ; i < exp; i ++) {
+        result *= base;
+    }
+    return result;
+}
+
 int main() {
 
     // Connect();
@@ -235,6 +243,16 @@ int main() {
     // } // The loop will run the condition in the () and then run the loop, it is similar to while loop but more cleaner and efficient.
 
     // Exponent Functions
+    // int base, exp;
+    // int ans;
+    // cout << "Enter Base : ";
+    // cin >> base;
+    // cout << "Enter power : ";
+    // cin >> exp;
+    // ans = power(base, exp);
+    // cout << base << " raised to " << exp << " power is : " << ans << endl;
+
+    // 2D Arrays and Nested For Loops
 
     return 0; // Signifies the end of code , anything beyond this does not get executed.
 }
