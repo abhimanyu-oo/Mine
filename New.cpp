@@ -253,6 +253,22 @@ int main() {
     // cout << base << " raised to " << exp << " power is : " << ans << endl;
 
     // 2D Arrays and Nested For Loops
+    // // grid[rows][columns] do add these numbers it is always better that way.
+    // int grid[3][2] = {
+    //     {1,2},
+    //     {3,4},
+    //     {5,6}
+    // };
+    // // cout << grid[0][0] << endl;
+    //
+    // for (int i =0; i < 3; i++ ) {
+    //     for (int j =0; j < 2; j++ ) {
+    //         cout << grid[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
+    // // This is a nested for loop.
+
 
     return 0; // Signifies the end of code , anything beyond this does not get executed.
 }
