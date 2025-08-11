@@ -211,8 +211,7 @@ int main() {
     // } else {
     //     outofguesses=false;
     //     cout << "You Win!" << endl;
-    // }
-    // Same Thing but Different approach. if statement inside while loop.
+    // } // Same Thing but Different approach. if statement inside while loop.
     // while (secnum != guess && !outofguesses) {
     //     if (guesscount < limit ) {
     //         cout << "Please enter your guess: ";
@@ -229,7 +228,13 @@ int main() {
     // }
 
     // For Loops
+    // int numb[] = {1,3,5,7,11,12,21};
+    // for (int i =1 ; i < 7 ; i++) {
+    //     cout << i;
+    //     cout << "=" << numb[i] << endl;
+    // } // The loop will run the condition in the () and then run the loop, it is similar to while loop but more cleaner and efficient.
 
+    // Exponent Functions
 
     return 0; // Signifies the end of code , anything beyond this does not get executed.
 }
